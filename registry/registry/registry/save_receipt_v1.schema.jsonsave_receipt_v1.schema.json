@@ -1,5 +1,3 @@
-mkdir -p registry
-cat > registry/save_receipt_v1.schema.json <<'JSON'
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Save-Receipt v1",
@@ -14,8 +12,3 @@ cat > registry/save_receipt_v1.schema.json <<'JSON'
   },
   "required": ["version", "filename", "sha256", "timestamp", "attestation"]
 }
-JSON
-
-git add registry/save_receipt_v1.schema.json
-git commit -m "fix(registry): restore valid Save-Receipt v1 schema (was empty)"
-git push
