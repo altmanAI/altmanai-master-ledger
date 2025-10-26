@@ -1,0 +1,35 @@
+name: Validate JSON & Ledger
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install jsonschema
+      - name: Validate Save-Receipt v1
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          from jsonschema import validate, Draft202012Validator
+          root = pathlib.Path('.')
+          schema = json.loads((root/'registry'/'save_receipt_v1.schema.json').read_text())
+          for p in root.rglob('*.json'):
+            if p.name.endswith('save-receipt.json') or 'save_receipt' in p.name:
+              doc = json.loads(p.read_text())
+              Draft202012Validator(schema).validate(doc)
+              print(f"ok: {p}")
+          PY
+      - name: Validate PoC Tag v1
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          from jsonschema import Draft202012Validator
+          root = pathlib.Path('.')
+          schema = json.loads((root/'registry'/'poc_tag_v1.schema.json').read_text())
+          for p in root.rglob('*.json'):
+            if 'poc' in p.name and 'tag' in p.name:
+              Draft202012Validator(schema).validate(json.loads(p.read_text()))
+              print(f"ok: {p}")
+          PY
