@@ -17,6 +17,5 @@ cat > registry/save_receipt_v1.schema.json <<'JSON'
 JSON
 
 git add registry/save_receipt_v1.schema.json
-git commit -m "chore(registry): add Save-Receipt v1 schema for CI validation"
+git commit -m "fix(registry): restore valid Save-Receipt v1 schema (was empty)"
 git push
-
