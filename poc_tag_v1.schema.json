@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proof-of-Contribution Tag v1",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "associated_registry_id": {
+      "type": "string"
+    },
+    "contributor": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "attestation": {
+      "type": "string"
+    },
+    "countersign": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "associated_registry_id",
+    "contributor",
+    "role",
+    "summary",
+    "type"
+  ]
+}
