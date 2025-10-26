@@ -1,3 +1,5 @@
+mkdir -p registry
+cat > registry/save_receipt_v1.schema.json <<'JSON'
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Save-Receipt v1",
@@ -5,16 +7,16 @@
   "properties": {
     "version": { "const": "1.0" },
     "filename": { "type": "string" },
-    "sha256": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$"
-    },
-    "timestamp": {
-      "type": "string",
-      "format": "date-time"
-    },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timestamp": { "type": "string", "format": "date-time" },
     "attestation": { "type": "string" },
     "registry_context": { "type": "string" }
   },
   "required": ["version", "filename", "sha256", "timestamp", "attestation"]
 }
+JSON
+
+git add registry/save_receipt_v1.schema.json
+git commit -m "chore(registry): add Save-Receipt v1 schema for CI validation"
+git push
+
