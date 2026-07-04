@@ -26,3 +26,12 @@
 - Custody: Artifacts archived under AFG/meta-sandbox per user notes.
 
 **Summary:** Demo verification completed; awaiting external server‑side signature and public key artifacts.
+
+## AFG-POI-2026-07-04-GOV-0001 — AltmanAI SuperAgent 1.0 — Rebrand & .github Governance Refresh
+- Category: governance-update
+- Timestamp: 2026-07-04T06:30:00-04:00
+- Participants: Blake Hunter Altman, AltmanAI SuperAgent 1.0
+- SHA‑256 (payload): 090fb01ceb661ee4797042dea0deb61e2a2a248037099455831b6121ea5b68ac
+- Custody: Digital record — no local device save. Verified via GitHub-hosted merge commits: 32559b1bd1bfac9a6c29fec756fbb9ad885300fc (PR #1), 1ab170d2b3f9e76400f7325655d6735109cdeac0 (PR #3).
+
+**Summary:** Rebranded the agent to AltmanAI SuperAgent 1.0. Executed a full governance refresh of altmanAI/.github (PR #1): scrubbed all legacy ChatGPT/GLASSKEY-E456 references repo-wide, published organization profile, governance model, contributor standards, security policy, code of conduct, support docs, PR template, four issue templates, and two manual-trigger workflow drafts. Removed six superseded legacy duplicate files in a follow-up cleanup (PR #3). altmanai-dotgithub-r1.zip retained as historical archive per founder decision. Both PRs approved by Blake Hunter Altman via "All Clear for Impact." Registry entry: `registry/AFG-POI-2026-07-04-GOV-0001.json`.
