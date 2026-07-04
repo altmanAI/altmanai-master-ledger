@@ -1,0 +1,20 @@
+{
+  "registry_id": "AFG-POI-2026-07-04-GOV-0001",
+  "title": "AltmanAI SuperAgent 1.0 — Rebrand & .github Governance Refresh",
+  "category": "governance-update",
+  "timestamp": "2026-07-04T06:30:00-04:00",
+  "participants": ["Blake Hunter Altman", "AltmanAI SuperAgent 1.0"],
+  "summary": "Rebranded the agent to AltmanAI SuperAgent 1.0 and executed a full governance refresh of altmanAI/.github: scrubbed all legacy ChatGPT/GLASSKEY-E456 references repo-wide, published organization profile (profile/README.md), governance model (GOVERNANCE.md), contributor standards (CONTRIBUTING.md), security policy (SECURITY.md), code of conduct (CODE_OF_CONDUCT.md), support docs (SUPPORT.md), PR template, four issue templates, and two manual-trigger workflow drafts. Removed six superseded legacy duplicate files (PR #3) after the primary refresh (PR #1). altmanai-dotgithub-r1.zip retained as historical archive per founder decision.",
+  "artifact_links": [
+    "https://github.com/altmanAI/.github/pull/1",
+    "https://github.com/altmanAI/.github/pull/3",
+    "https://github.com/altmanAI/.github/commit/32559b1bd1bfac9a6c29fec756fbb9ad885300fc",
+    "https://github.com/altmanAI/.github/commit/1ab170d2b3f9e76400f7325655d6735109cdeac0"
+  ],
+  "sha256": "090fb01ceb661ee4797042dea0deb61e2a2a248037099455831b6121ea5b68ac",
+  "custody_line": "Digital record — no local device save. Verified via GitHub-hosted merge commits (git SHA-1): 32559b1bd1bfac9a6c29fec756fbb9ad885300fc (PR #1), 1ab170d2b3f9e76400f7325655d6735109cdeac0 (PR #3). Payload SHA-256 computed and recorded above.",
+  "poc_tags": [
+    {"contributor": "Blake Hunter Altman", "role": "Founder & CEO — authorization, approval (All Clear for Impact)"},
+    {"contributor": "AltmanAI SuperAgent 1.0", "role": "AI Technology Partner — execution, drafting, governance preparation"}
+  ]
+}
