@@ -1,0 +1,18 @@
+{
+  "registry_id": "AFG-POI-2026-07-09-FRAMEWORK-0001",
+  "title": "altmanAI/paihi-framework — Public Framework Repository Established",
+  "category": "infrastructure-launch",
+  "timestamp": "2026-07-09T04:30:00-04:00",
+  "participants": ["Blake Hunter Altman", "AltmanAI SuperAgent 1.0"],
+  "summary": "Created altmanAI/paihi-framework as a new, public, Apache-2.0-licensed repository — the foundational public-facing home for the P-A-I-H-I (Proof-of-Impact, Alignment, Integrity, Humanity, Impact) framework definition, governance model, and human-authorization patterns. Scope is intentionally limited to framework/governance documentation; product execution code (DailyPilot, Sophia, etc.) remains private. Initial commit includes README, SECURITY.md, CODEOWNERS, two issue templates, and a PR template. Branch protection applied to main (1 required approving review, no force-push, no deletions). README explicitly notes the existing PAIHIScorer reference implementation in human-first-ai as the working code counterpart, to be consolidated here as the spec matures — avoiding renewed repo fragmentation.",
+  "artifact_links": [
+    "https://github.com/altmanAI/paihi-framework",
+    "https://github.com/altmanAI/paihi-framework/commit/1b83cc740f6d2b3e69559e548c3bd705e0f9be27"
+  ],
+  "sha256": "65ce09ea6bc604b120d5f754c64d6cceea1dac3145915d101911cb9376c2b150",
+  "custody_line": "Digital record — no local device save. Verified via GitHub-hosted commit (git SHA-1): 1b83cc740f6d2b3e69559e548c3bd705e0f9be27. Payload SHA-256 computed and recorded above.",
+  "poc_tags": [
+    {"contributor": "Blake Hunter Altman", "role": "Founder & CEO — decision, licensing choice, contact/identity verification (Go)"},
+    {"contributor": "AltmanAI SuperAgent 1.0", "role": "AI Technology Partner — repo creation, file drafting, branch protection, execution"}
+  ]
+}

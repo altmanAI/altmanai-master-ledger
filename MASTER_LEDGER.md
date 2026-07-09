@@ -35,3 +35,12 @@
 - Custody: Digital record — no local device save. Verified via GitHub-hosted merge commits: 32559b1bd1bfac9a6c29fec756fbb9ad885300fc (PR #1), 1ab170d2b3f9e76400f7325655d6735109cdeac0 (PR #3).
 
 **Summary:** Rebranded the agent to AltmanAI SuperAgent 1.0. Executed a full governance refresh of altmanAI/.github (PR #1): scrubbed all legacy ChatGPT/GLASSKEY-E456 references repo-wide, published organization profile, governance model, contributor standards, security policy, code of conduct, support docs, PR template, four issue templates, and two manual-trigger workflow drafts. Removed six superseded legacy duplicate files in a follow-up cleanup (PR #3). altmanai-dotgithub-r1.zip retained as historical archive per founder decision. Both PRs approved by Blake Hunter Altman via "All Clear for Impact." Registry entry: `registry/AFG-POI-2026-07-04-GOV-0001.json`.
+
+## AFG-POI-2026-07-09-FRAMEWORK-0001 — altmanAI/paihi-framework — Public Framework Repository Established
+- Category: infrastructure-launch
+- Timestamp: 2026-07-09T04:30:00-04:00
+- Participants: Blake Hunter Altman, AltmanAI SuperAgent 1.0
+- SHA‑256 (payload): 65ce09ea6bc604b120d5f754c64d6cceea1dac3145915d101911cb9376c2b150
+- Custody: Digital record — no local device save. Verified via GitHub-hosted commit (git SHA-1): 1b83cc740f6d2b3e69559e548c3bd705e0f9be27.
+
+**Summary:** Created altmanAI/paihi-framework as a new, public, Apache-2.0-licensed repository — the foundational public-facing home for the P-A-I-H-I framework definition, governance model, and human-authorization patterns. Scope is intentionally limited to framework/governance documentation; product execution code (DailyPilot, Sophia, etc.) remains private. Initial commit includes README, SECURITY.md, CODEOWNERS, issue templates, and a PR template. Branch protection applied to main. README explicitly notes the existing PAIHIScorer reference implementation in human-first-ai as the working code counterpart, to be consolidated here as the spec matures. Registry entry: `registry/AFG-POI-2026-07-09-FRAMEWORK-0001.json`.
