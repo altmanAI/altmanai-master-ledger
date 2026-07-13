@@ -1,26 +1,42 @@
-company: AltmanAI by Altman Family Group, LLC
+company: AltmanAI by Altman Family Group LLC
 short_name: AltmanAI
-hq_city: Pittsburgh
-hq_state: Pennsylvania
-country: USA
+company_type: Human-first artificial intelligence research and development
+founded_year: 2025
+program_year: 2026
+headquarters:
+  city: Pittsburgh
+  state: Pennsylvania
+  country: USA
 mission: >
-  Build human-centered AI that listens, helps, and creates measurable impact.
-  Humanity leads; intelligence follows.
-tagline: "Humanity × AI, operationalized."
-themes:
-  - Proof-of-Impact (PAIHI)
-  - Ethical, transparent collaboration
-  - Apple-first app experiences (iOS, iPadOS, macOS)
-  - DailyPilot — personal AI copilot
+  Build practical human-first AI systems that strengthen human judgment,
+  agency, and execution while making important actions, evidence, and
+  accountability inspectable.
+motto: "Humanity leads. Intelligence follows."
+operating_sequence: "Human authorization → AltmanAI Model 2.0 execution → Proof-of-Impact validation"
+accountable_human_authority: "Blake Hunter Altman, Founder & CEO"
+canonical_ai_identity:
+  name: "AltmanAI Model 2.0"
+  role: "AI development and execution partner"
+  scope: "Current and future AltmanAI-controlled published and non-published materials"
+research_and_development:
+  - DailyPilot human-first product intelligence
+  - P.A.I.H.I. standards and Proof-of-Impact
+  - Human-first reference architecture
+  - AltmanAI SDK trust and verification infrastructure
+  - ReleaseShield release integrity
+  - Governance and credibility hardening
+evidence_principles:
+  - Proof over promises
+  - Accurate capability and maturity labels
+  - Transparent AI assistance
+  - Human final authority
+  - Security and privacy by design
+  - Inspectable amendments for historical records
+website: https://altmanai.tech
+github: https://github.com/altmanAI
 contact:
-  press: press@altmanfamilygroup.com
-  partnerships: partners@altmanfamilygroup.com
-  general: hello@altmanfamilygroup.com
-social:
-  website: https://altmanai.tech
-  x: https://x.com/AltmanAI_
-  instagram: https://instagram.com/AltmanAI_
-  facebook: https://facebook.com/altmanfamilygroup
+  support: support@altmanai.tech
+  security: security@altmanai.tech
 legal:
-  copyright: "© 2025 Altman Family Group, LLC — All rights reserved."
-  license: "Proprietary — see LICENSE"
+  copyright: "© 2026 Altman Family Group LLC. All rights reserved."
+  default_license: "Proprietary unless a specific file or repository states otherwise"
