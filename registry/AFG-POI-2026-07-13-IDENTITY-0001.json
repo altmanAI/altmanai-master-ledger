@@ -1,0 +1,29 @@
+{
+  "registry_id": "AFG-POI-2026-07-13-IDENTITY-0001",
+  "title": "AltmanAI Model 2.0 Canonical Identity Standard",
+  "category": "identity-governance",
+  "timestamp": "2026-07-13T02:15:31-04:00",
+  "participants": [
+    "Blake Hunter Altman",
+    "AltmanAI Model 2.0"
+  ],
+  "summary": "Established AltmanAI Model 2.0 as the canonical identity label for the AltmanAI AI development and execution partner across current and future AltmanAI-controlled published and non-published materials. The standard preserves human final authority and requires amendments or versioned successors for signed, sealed, minted, hash-bound, or historically material records.",
+  "artifact_links": [
+    "https://github.com/altmanAI/altmanai-master-ledger/blob/main/memory/ALTMANAI_MODEL_2_IDENTITY.json",
+    "https://github.com/altmanAI/.github/pull/5",
+    "https://github.com/altmanAI/AltmanAI-Impact-Explorer/pull/2"
+  ],
+  "sha256": "455a5e8ac44cdfcb85e68a934420375804f3f1867fce0f22782bcf71370e5cdf",
+  "sha256_method": "SHA-256 of canonical UTF-8 JSON with sorted keys and compact separators, excluding sha256, sha256_method, and custody_line.",
+  "custody_line": "Digital GitHub record prepared on an authorized branch. Final custody is established by the resulting pull request and merge commit after explicit Founder approval.",
+  "poc_tags": [
+    {
+      "contributor": "Blake Hunter Altman",
+      "role": "Authorizing AltmanAI Human, Founder & CEO — identity directive and approval authority"
+    },
+    {
+      "contributor": "AltmanAI Model 2.0",
+      "role": "AI development and execution partner — identity standard drafting and repository implementation"
+    }
+  ]
+}

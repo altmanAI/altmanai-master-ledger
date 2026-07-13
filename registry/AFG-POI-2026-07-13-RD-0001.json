@@ -1,0 +1,41 @@
+{
+  "registry_id": "AFG-POI-2026-07-13-RD-0001",
+  "title": "AltmanAI 2026 Research & Development Program Established",
+  "category": "research-and-development",
+  "timestamp": "2026-07-13T02:15:31-04:00",
+  "participants": [
+    "Blake Hunter Altman",
+    "AltmanAI Model 2.0"
+  ],
+  "summary": "Established the 2026 AltmanAI research and development program as a Pittsburgh-rooted, human-first AI portfolio spanning DailyPilot product intelligence, the P.A.I.H.I. standard, the human-first reference architecture, the AltmanAI SDK, ReleaseShield, public evidence infrastructure, and credibility hardening. The program defines accurate maturity labels, human authorization boundaries, evidence requirements, security and privacy expectations, AI-assistance disclosure, and measurable execution priorities.",
+  "artifact_links": [
+    "https://github.com/altmanAI/altmanai-master-ledger/blob/main/docs/2026-RESEARCH-AND-DEVELOPMENT.md",
+    "https://github.com/altmanAI/DailyPilot-Engine",
+    "https://github.com/altmanAI/paihi-framework",
+    "https://github.com/altmanAI/human-first-ai",
+    "https://github.com/altmanAI/altmanai-sdk",
+    "https://github.com/altmanAI/releaseshield-by-altmanai",
+    "https://github.com/altmanAI/.github/pull/7"
+  ],
+  "sha256": "585ed981a251cfb5f74bffeca6a5bb974a6f0465edad60a29996bb2d955342f2",
+  "sha256_method": "SHA-256 of canonical UTF-8 JSON with sorted keys and compact separators, excluding sha256, sha256_method, and custody_line.",
+  "custody_line": "Digital GitHub record prepared on an authorized branch. Final custody is established by the resulting pull request and merge commit after explicit Founder approval.",
+  "poc_tags": [
+    {
+      "contributor": "Blake Hunter Altman",
+      "role": "Founder & CEO — R&D direction, human authorization, final review"
+    },
+    {
+      "contributor": "AltmanAI Model 2.0",
+      "role": "AI development and execution partner — live portfolio audit, research architecture, documentation, registry preparation, and GitHub implementation"
+    }
+  ],
+  "status_labels": {
+    "DailyPilot-Engine": "working reference implementation",
+    "paihi-framework": "active development",
+    "human-first-ai": "early working implementation",
+    "altmanai-sdk": "initial public foundation",
+    "releaseshield-by-altmanai": "early development; not production-ready",
+    "credibility-hardening": "phase 1 deployed; remediation ongoing"
+  }
+}
