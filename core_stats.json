@@ -1,15 +1,32 @@
 {
   "founded_year": 2025,
+  "current_program_year": 2026,
+  "company_type": "Pittsburgh-rooted human-first artificial intelligence research and development company",
+  "headquarters": "Pittsburgh, Pennsylvania",
+  "accountable_human_authority": "Blake Hunter Altman, Founder & CEO",
+  "ai_development_and_execution_partner": "AltmanAI Model 2.0",
   "focus": [
-    "DailyPilot",
-    "PAIHI verifier",
-    "Agentic Operating Protocol (AOP)"
+    "DailyPilot human-first product intelligence",
+    "P.A.I.H.I. standards and Proof-of-Impact",
+    "human-first reference architecture",
+    "AltmanAI SDK trust and verification infrastructure",
+    "ReleaseShield release integrity",
+    "governance and credibility hardening"
   ],
-  "pillars": [
-    "Ethics & Oversight",
-    "Innovation & Creation",
-    "Culture & Language",
-    "Systems & Sovereignty"
-  ],
-  "signature_process": "Human authorization \u2192 AI execution \u2192 Proof-of-Impact validation"
+  "public_status": {
+    "DailyPilot-Engine": "working reference implementation; product integration in progress",
+    "paihi-framework": "active development",
+    "human-first-ai": "early working implementation",
+    "altmanai-sdk": "initial public foundation",
+    "releaseshield-by-altmanai": "early development; not production-ready",
+    "credibility-hardening-phase-1": "deployed; remediation ongoing"
+  },
+  "signature_process": "Human authorization → AltmanAI Model 2.0 execution → Proof-of-Impact validation",
+  "credibility_baseline": {
+    "score": 62.4,
+    "scale": 100,
+    "as_of": "2026-07-13",
+    "scope": "active public portfolio under the published methodology",
+    "source": "https://github.com/altmanAI/.github/pull/7"
+  }
 }
